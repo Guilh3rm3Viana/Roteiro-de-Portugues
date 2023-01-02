@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    background-color: rgb(246, 246, 246);
+    position: relative;
+
+}
+
+.title{
+    font-family: Roboto, Arial;
+    font-size: 75px;
+}
+

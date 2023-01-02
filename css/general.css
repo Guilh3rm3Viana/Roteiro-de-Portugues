@@ -1,0 +1,14 @@
+p{
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
+.body{
+    background-color: rgb(246, 246, 246);
+    z-index: 100;
+}
+
+a{
+    display: inline-block;
+}
+

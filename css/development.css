@@ -1,0 +1,465 @@
+.development{
+    display: grid;
+}
+
+.alojamento, .dia-1, .dia-2, .dia-3{
+    width: 250px;
+    height: 250px;
+    border-radius: 400px;
+    position: absolute;
+}
+
+.alojamento:hover, .dia-1:hover{
+    width: 350px;
+    height: 350px;
+}
+
+.img-1{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 400px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+}
+
+.img-1-txt{
+    position: absolute;
+    font-size: 30px;
+
+}
+
+.img-1:hover{
+    width: 350px;
+    height: 350px;
+
+}
+
+.img-1-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 400px;
+    object-fit: cover;
+    transition: all 0.15s;
+}
+
+.img-1-img:hover{
+    width: 100%;
+    height: 100%;
+}
+
+.img-2-txt{
+    position: absolute;
+    font-size: 45px;
+}
+
+.txt-1-img{
+    width: 750px;
+    object-fit: cover;
+
+}
+
+.dia1-img-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.dia1-img, .dia1-img1{
+    max-width: 100%;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+}
+
+.dia1-img1{
+    margin-left: 20px;
+}
+
+.dia2-img-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.dia2-div{
+    width: 80%;
+    padding-left: 10%;
+    justify-content: end;
+    align-items: center;
+}
+
+.dia2-div1{
+    width: 80%;
+    padding-right: 10%;
+    justify-content: end;
+    align-items: center;
+}
+
+.dia2-img{
+    width: 100%;
+    margin: 2px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.txt-1-txt{
+    display: grid;
+}
+
+.txt-2-txt{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.cruzeiro{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.cruzeiro-img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.dia3-body-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dia3-body{
+    
+    background-color: rgb(233, 233, 233);
+}
+
+.tr th{
+    width: 200px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+    border: 2px solid lightgray;
+    background-color: rgb(217, 217, 217);
+    margin:0;
+}
+
+.tr{
+    border: 2px solid lightgray;
+    background-color: rgb(217, 217, 217);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table-title th{
+    
+    height: 36px;
+    font-size: 24px;
+    border: 2px solid lightgray;
+    margin:0;
+}
+
+.table-title{
+    width: 600px;
+}
+
+.dia3-txt-div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.rota{
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tr2{
+    border: 2px solid lightgray;
+    background-color: rgb(217, 217, 217);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tr2 th{
+    width: 350px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    border: 2px solid lightgray;
+    background-color: rgb(217, 217, 217);
+    margin:0;
+}
+
+.caminho-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+    margin-right: 100px;
+    position: relative;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.caminho{
+    width: 100%;
+    height: 600px;
+    object-fit:fill;
+    max-width: 1650px;
+}
+
+.alojamento{
+    top: 23%;
+    left: -3%;
+}
+
+.dia-1{
+    top: 38%;
+    left: 25%;
+}
+
+.dia-2{
+    top: 13%;
+    left: 55%;
+}
+
+.dia-3{
+    right: 0;
+    top: 8%;
+}
+
+.butoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button{
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+    background-color: rgb(246, 246, 246);
+    border-color: aliceblue;
+    transition: background-color 0.15s;
+}
+
+.button:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.table1{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 15px;
+}
+
+.table2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 15px;
+}
+
+.dia3-img{
+    margin-left: 100px;
+    height: 400px;
+}
+
+.img3{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.butoes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.button2{
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+    border-color: rgb(242, 247, 252);
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+}
+
+.button2:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.button2:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.button:active{
+    background-color: rgb(222, 222, 222);
+}
+
+.alojamento-body{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+.div1-A{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-alojamento{
+    width: 100%;
+}
+
+.title-alojamento{
+    font-size: 250%;
+}
+
+.body-alojamento{
+    font-size: 120%;
+}
+
+.div1-B{
+    display: flex;
+}
+
+
+
+.img-alojamento{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.txt-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+@media (min-width: 900px)
+{
+    .img-1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-1:hover{
+        width: 200px;
+        height: 200px;
+    }
+
+    .alojamento{
+        top: 35%;
+        left: -1%;
+    }
+    
+    .dia-1{
+        top: 50%;
+        left: 25%;
+    }
+    
+    .dia-2{
+        top: 20%;
+        left: 55%;
+    }
+    
+    .dia-3{
+        right: -17%;
+        top: 15%;
+    }
+}
+
+@media (min-width: 1050px)
+{
+    .img-1{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-1:hover{
+        width: 275px;
+        height: 275px;
+    }
+
+    .alojamento{
+        top: 23%;
+        left: -3%;
+    }
+    
+    .dia-1{
+        top: 47%;
+        left: 30%;
+    }
+    
+    .dia-2{
+        top: 13%;
+        left: 55%;
+    }
+    
+    .dia-3{
+        right: -13%;
+        top: 10%;
+    }
+}
+
+@media (min-width: 1275px)
+{
+    .img-1{
+        width: 250px;
+        height: 250px;
+    }
+
+    .img-1:hover{
+        width: 350px;
+        height: 350px;
+    }
+
+    .alojamento{
+        top: 23%;
+        left: -3%;
+    }
+    
+    .dia-1{
+        top: 38%;
+        left: 25%;
+    }
+    
+    .dia-2{
+        top: 13%;
+        left: 55%;
+    }
+    
+    .dia-3{
+        right: 0;
+        top: 8%;
+    }
+}
+
+
+
+
+
+
